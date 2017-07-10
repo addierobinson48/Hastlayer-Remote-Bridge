@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hast.Remote.Bridge.Models.Api
+namespace Hast.Remote.Bridge.Models
 {
     public class HardwareDescription
     {

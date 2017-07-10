@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hast.Remote.Bridge.Models.Api
+namespace Hast.Remote.Bridge.Models
 {
-    public class AssemblyContainer
+    public class TransformationTicket
     {
-        public byte[] FileContent { get; set; }
+        public string Token { get; set; }
     }
 }

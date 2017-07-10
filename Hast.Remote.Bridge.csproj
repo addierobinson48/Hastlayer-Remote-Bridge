@@ -40,12 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Api\AssemblyContainer.cs" />
-    <Compile Include="Models\Api\HardwareDescription.cs" />
-    <Compile Include="Models\Api\HardwareGenerationConfiguration.cs" />
-    <Compile Include="Models\Api\TransformationRequest.cs" />
-    <Compile Include="Models\Api\TransformationResult.cs" />
-    <Compile Include="Models\Api\TransformationTicket.cs" />
+    <Compile Include="Models\AssemblyContainer.cs" />
+    <Compile Include="Models\HardwareDescription.cs" />
+    <Compile Include="Models\HardwareGenerationConfiguration.cs" />
+    <Compile Include="Models\TransformationRequest.cs" />
+    <Compile Include="Models\TransformationResult.cs" />
+    <Compile Include="Models\TransformationTicket.cs" />
     <Compile Include="Models\TransformationJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
