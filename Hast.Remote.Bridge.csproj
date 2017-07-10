@@ -43,6 +43,7 @@
     <Compile Include="Models\AssemblyContainer.cs" />
     <Compile Include="Models\HardwareDescription.cs" />
     <Compile Include="Models\HardwareGenerationConfiguration.cs" />
+    <Compile Include="Models\TransformationJobResult.cs" />
     <Compile Include="Models\TransformationRequest.cs" />
     <Compile Include="Models\TransformationResult.cs" />
     <Compile Include="Models\TransformationTicket.cs" />
