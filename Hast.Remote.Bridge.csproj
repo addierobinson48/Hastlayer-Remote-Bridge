@@ -43,7 +43,9 @@
     <Compile Include="Models\Api\AssemblyContainer.cs" />
     <Compile Include="Models\Api\HardwareDescription.cs" />
     <Compile Include="Models\Api\HardwareGenerationConfiguration.cs" />
+    <Compile Include="Models\Api\TransformationRequest.cs" />
     <Compile Include="Models\Api\TransformationResult.cs" />
+    <Compile Include="Models\Api\TransformationTicket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
