@@ -46,6 +46,7 @@
     <Compile Include="Models\Api\TransformationRequest.cs" />
     <Compile Include="Models\Api\TransformationResult.cs" />
     <Compile Include="Models\Api\TransformationTicket.cs" />
+    <Compile Include="Models\TransformationJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
