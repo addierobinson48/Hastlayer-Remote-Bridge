@@ -15,3 +15,17 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("a9d9fec6-20ce-48f5-9d94-1919b2b0ace2")]
+
+// Copying these attributes here because since this project is also added to Lombiq.Tenants SharedAssemblyInfo.cs can't
+// be used. Version attributes are intentionally not added, not to have to maintain them (and versions for this assembly
+// don't really matter).
+[assembly: AssemblyCompany("Lombiq Technologies Ltd.")]
+[assembly: AssemblyProduct("Hastlayer (hastlayer.com)")]
+[assembly: AssemblyCopyright("Copyright © 2015-2017")]
+[assembly: AssemblyTrademark("")]
+
+#if DEBUG
+    [assembly: AssemblyConfiguration("Debug")]
+#else
+[assembly: AssemblyConfiguration("Release")]
+#endif
