@@ -48,6 +48,7 @@
     <Compile Include="Models\TransformationResult.cs" />
     <Compile Include="Models\TransformationTicket.cs" />
     <Compile Include="Models\TransformationJob.cs" />
+    <Compile Include="Models\TransformationWarning.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

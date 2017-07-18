@@ -7,5 +7,6 @@ namespace Hast.Remote.Bridge.Models
         public string Language { get; set; }
         public Dictionary<string, int> HardwareEntryPointNamesToMemberIdMappings { get; set; }
         public string Source { get; set; }
+        public List<TransformationWarning> Warnings { get; set; }
     }
 }
